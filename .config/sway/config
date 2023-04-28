@@ -14,7 +14,7 @@ set $down j
 set $up k
 set $right l
 # Your preferred terminal emulator
-set $term alacritty
+set $term foot
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
@@ -28,7 +28,7 @@ output * bg /home/jf/Pictures/eagle.jpg fill
 #
 # Example configuration:
 #
-output HDMI-A-1 mode 3480x2160@120Hz position 0,0 render_bit_depth 10 adaptive_sync on
+output HDMI-A-1 mode 3480x2160@120Hz position 0,0 render_bit_depth 10 adaptive_sync on max_render_time 1
 output DP-3 resolution 1920x1080 position 0,2162
 #output DP-3 power off
 #
@@ -99,6 +99,7 @@ output DP-3 resolution 1920x1080 position 0,2162
     bindsym $mod+Down focus down
     bindsym $mod+Up focus up
     bindsym $mod+Right focus right
+    bindsym $mod+m fullscreen
 
     # Move the focused window with the same, but add Shift
     bindsym $mod+Shift+$left move left
@@ -228,5 +229,7 @@ bar {
    mode invisible
 }
 
+input type:keyboard xkb_numlock enabled
+exec wl-paste -t text --watch clipman store --no-persist
 exec polkit-dumb-agent
 include /etc/sway/config.d/*
