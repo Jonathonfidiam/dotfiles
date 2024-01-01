@@ -1,0 +1,21 @@
+{
+    "layer": "top",
+    "position": "bottom",
+    "height": 30,  
+    "width": 1280,
+    "spacing": 4,
+    "modules-center": ["tray"],
+    "keyboard-state": {
+        "numlock": true,
+        "capslock": true,
+        "format": "{name} {icon}",
+        "format-icons": {
+            "locked": "",
+            "unlocked": ""
+        }
+    },
+    "tray": {
+         "icon-size": 21,
+        "spacing": 10
+    }
+}

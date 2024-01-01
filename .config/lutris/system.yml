@@ -1,0 +1,4 @@
+system:
+  game_path: /nvme3/Games
+  gamescope: true
+  locale: ''

@@ -1,0 +1,44 @@
+window {
+    background-color: #FFFFFF;
+    font-family: monospace;
+    font-size: 40px;
+}
+
+#input {
+    margin: 5px;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 3px solid black;
+    background-color: black;
+    color: white;
+}
+
+#inner-box {
+    background-color: black;
+
+}
+
+#outer-box {
+    margin: 5px;
+    padding:10px;
+    background-color: #DEE404;
+}
+
+#scroll {
+}
+
+#text {
+padding: 5px;
+color: white;
+}
+
+#entry:nth-child(even){
+    background-color: black;
+}
+
+#entry:selected {
+    background-color: #101839;
+}
+
+#text:selected {
+}

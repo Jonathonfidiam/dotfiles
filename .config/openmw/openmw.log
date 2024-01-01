@@ -1,0 +1,56 @@
+[22:45:46.661 I] Crash handler installed
+[22:45:46.733 I] Loading config file: /home/jf/.config/openmw/openmw.cfg
+[22:45:46.734 I] Loading config file: /ssd1/openMW/openmw.cfg
+[22:45:46.736 I] OpenMW version 0.47.0
+[22:45:46.736 I] Revision: 958dd94978
+[22:45:46.736 I] Using default (English) font encoding.
+[22:45:46.736 I] OSG version: 3.6.5
+[22:45:46.736 I] SDL version: 2.0.14
+[22:45:46.736 I] Loading settings file: /ssd1/openMW/defaults.bin
+[22:45:46.736 I] Loading settings file: /home/jf/.config/openmw/settings.cfg
+[22:45:46.746 I] Adding BSA archive /ssd1/SteamLibrary/steamapps/common/Morrowind/Data Files/Morrowind.bsa
+[22:45:46.751 I] Adding BSA archive /ssd1/SteamLibrary/steamapps/common/Morrowind/Data Files/Tribunal.bsa
+[22:45:46.751 I] Adding BSA archive /ssd1/SteamLibrary/steamapps/common/Morrowind/Data Files/Bloodmoon.bsa
+[22:45:46.752 I] Adding data directory ./resources/vfs
+[22:45:46.752 I] Adding data directory /ssd1/SteamLibrary/steamapps/common/Morrowind/Data Files
+[22:45:46.772 I] Loading keybindings file: /home/jf/.config/openmw/input_v3.xml
+[22:45:46.795 I] Detected game controller: XInput Controller
+[22:45:46.795 I] Initializing OpenAL...
+[22:45:46.804 I] Opened "Starship/Matisse HD Audio Controller Digital Surround 5.1 (IEC958/AC3)"
+[22:45:46.804 I]   ALC Version: 1.1
+[22:45:46.804 I]   ALC Extensions: ALC_ENUMERATE_ALL_EXT ALC_ENUMERATION_EXT ALC_EXT_CAPTURE ALC_EXT_DEDICATED ALC_EXT_disconnect ALC_EXT_EFX ALC_EXT_thread_local_context ALC_SOFT_device_clock ALC_SOFT_HRTF ALC_SOFT_loopback ALC_SOFT_output_limiter ALC_SOFT_pause_device
+[22:45:46.810 I]   Vendor: OpenAL Community
+[22:45:46.810 I]   Renderer: OpenAL Soft
+[22:45:46.810 I]   Version: 1.1 ALSOFT 1.20.1
+[22:45:46.810 I]   Extensions: AL_EXT_ALAW AL_EXT_BFORMAT AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_BFORMAT AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_EXT_SOURCE_RADIUS AL_EXT_STEREO_ANGLES AL_LOKI_quadriphonic AL_SOFT_bformat_ex AL_SOFT_block_alignment AL_SOFT_deferred_updates AL_SOFT_direct_channels AL_SOFT_direct_channels_remix AL_SOFTX_effect_chain AL_SOFTX_events AL_SOFTX_filter_gain_ex AL_SOFT_gain_clamp_ex AL_SOFT_loop_points AL_SOFTX_map_buffer AL_SOFT_MSADPCM AL_SOFT_source_latency AL_SOFT_source_length AL_SOFT_source_resampler AL_SOFT_source_spatialize
+[22:45:46.810 I] HRTF disabled
+[22:45:46.810 I] Allocated 256 sound sources
+[22:45:46.810 I] Low-pass filter supported
+[22:45:46.810 I] EAX Reverb supported
+[22:45:47.002 I] Enumerated output devices:
+[22:45:47.002 I]   Starship/Matisse HD Audio Controller Digital Surround 5.1 (IEC958/AC3)  HDA Creative Analog Stereo  Navi 21/23 HDMI/DP Audio Controller Digital Stereo (HDMI 4)
+[22:45:47.003 I] Enumerated HRTF names:
+[22:45:47.003 I]   Default HRTF  Built-In HRTF
+[22:45:48.784 I] Loading content file Morrowind.esm
+[22:45:48.878 I] Loading content file Tribunal.esm
+[22:45:48.898 I] Loading content file Bloodmoon.esm
+[22:45:49.036 V] Using idle priority for thread=140195832043200
+[22:45:49.069 I] Playing music/special/morrowind title.mp3
+[22:45:59.064 I] Reading save file jon.omwsave
+[22:45:59.069 I] Loading saved game 'jon' for character 'Jon'
+[22:45:59.122 V] Controller R2_Claw02 present more than once in meshes/r/xsiltstrider.kf, ignoring later version
+[22:45:59.137 I] Loading cell Seyda Neen (-2, -9)
+[22:45:59.153 I] Loading cell Bitter Coast Region (-2, -8)
+[22:45:59.155 I] Loading cell Bitter Coast Region (-1, -9)
+[22:45:59.159 I] Loading cell Bitter Coast Region (-3, -9)
+[22:45:59.170 I] Loading cell Seyda Neen (-2, -10)
+[22:45:59.177 I] Loading cell Ascadian Isles Region (-1, -8)
+[22:45:59.182 I] Loading cell Bitter Coast Region (-3, -8)
+[22:45:59.187 I] Loading cell Bitter Coast Region (-1, -10)
+[22:45:59.188 I] Loading cell Bitter Coast Region (-3, -10)
+[22:45:59.703 I] Warning: fallingScript line 46, column 6 (endif): endif without matching if/elseif
+[22:46:00.520 I] Playing music/explore/morrowind title.mp3
+[22:46:07.987 V] Changed setting: [Video] resolution x = 3840
+[22:46:07.987 V] Changed setting: [Video] resolution y = 2160
+[22:46:07.987 I] Updating settings file: "/home/jf/.config/openmw/settings.cfg"
+[22:46:07.987 I] Quitting peacefully.

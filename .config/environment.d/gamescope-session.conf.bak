@@ -1,0 +1,6 @@
+if [ "$XDG_SESSION_DESKTOP" = "gamescope" ] ; then
+    CLIENTCMD="steam -gamepadui -steamos3 -steampal -steamdeck -pipewire-dmabuf"
+    GAMESCOPECMD="/usr/bin/gamescope --hdr-enabled --hdr-itm-enable \
+    --hide-cursor-delay 3000 --fade-out-duration 200 --xwayland-count 2 \
+    -H 2160 -O HDMI-A-1"
+fi

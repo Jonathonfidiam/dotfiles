@@ -1,0 +1,6 @@
+[DoNotDisturb]
+WhenScreensMirrored=false
+
+[Notifications]
+CriticalInDndMode=false
+LowPriorityPopups=false
